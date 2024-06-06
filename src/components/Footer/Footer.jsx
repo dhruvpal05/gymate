@@ -36,19 +36,11 @@ function Footer() {
               </div>
               <p className="text-[16px] font-medium text-[#646464]">
                 Privacy Policy | © {new Date().getFullYear()} Gymate <br />{" "}
-                Design by{" "}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.radiustheme.com/"
-                >
-                  RadiusTheme
-                </a>
               </p>
             </div>
 
             {/* middle div */}
-            <div className="flex flex-col gap-8 relative">
+            <div className="relative flex flex-col gap-8">
               <p className="text-[22px] font-bold footer-main">Our Classes</p>
 
               <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
@@ -71,7 +63,7 @@ function Footer() {
             </div>
 
             {/* right div */}
-            <div className="flex flex-col gap-8 relative">
+            <div className="relative flex flex-col gap-8">
               <p className="text-[22px] font-bold footer-main">Working Hours</p>
 
               <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
